@@ -2,4 +2,10 @@
 <resources>
 
     <style name="Theme.MemeMaster" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.MemeMaster.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@android:color/black</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.MemeMaster</item>
+    </style>
 </resources>
