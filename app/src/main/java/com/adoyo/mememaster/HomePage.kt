@@ -38,10 +38,11 @@ fun HomePage(modifier: Modifier = Modifier) {
         floatingActionButton = {
             Button(
                 onClick = { /*TODO*/ },
-                shape = RoundedCornerShape(40.dp),
+                shape = RoundedCornerShape(16.dp),
                 colors = ButtonDefaults.buttonColors(
                     containerColor = Color(0xFFEADDFF),
-                )
+                ),
+                modifier = Modifier.size(66.dp)
 
             ) {
                 Icon(
